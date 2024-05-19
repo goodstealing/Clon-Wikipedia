@@ -1,0 +1,42 @@
+p {
+    margin: 0;
+}
+
+.link {
+    color: #1100ff;
+    text-decoration: none !important;
+    margin: 0;
+}
+
+.link:hover {
+    text-decoration: underline !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+}
+
+.inbox-biota {
+    display: inline-block;
+
+    border: solid gray 1px;
+    padding: 7px;
+}
+
+.inbox-biota>span {
+    text-align: left; 
+}
+
+
+.alloted-block {
+    background-color: rgb(180,250,180)
+}
+
+li {
+    padding: 2px;
+}
+
+.text-center {
+    text-align: center;
+}
