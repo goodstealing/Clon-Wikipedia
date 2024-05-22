@@ -17,11 +17,13 @@ ul {
     padding: 0px;
 }
 
+/* Content */
 .inbox-biota {
     display: inline-block;
     float: right;
     border: solid gray 1px;
     padding: 7px;
+    margin-left: 10px;
 }
 
 .inbox-biota>span {
@@ -49,3 +51,60 @@ li {
 .main-wrapper {
     margin: 7em 10em 15em 15em;
 }
+
+/* Title */
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between; 
+    background-color: aquamarine;
+
+
+}
+
+
+.nav-bar>nav>ul {
+    display: flex;
+}
+
+.nav-bar>nav>ul>li {
+    /* margin-right: 40px;
+    margin-left: 40px; */
+    list-style: none;
+
+}
+
+.nav-bar>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+}
+
+/* Styles applied to the 900px window and bottom */
+@media (max-width: 900px) {
+    .nav-bar {
+        flex-direction: column;
+    }
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.vector-main-menu>img {
+    height: 20px;
+}
+
+.vector-main-menu {
+    padding: 20px;
+}
+
+.logo-text>a>img {
+    height: 50px;
+}
+
+
+
