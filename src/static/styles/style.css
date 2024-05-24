@@ -91,20 +91,72 @@ li {
 .header {
     display: flex;
     align-items: center;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
+}
+
+.vector-main-menu {
+    padding: 20px;
+    display: flex;
 }
 
 .vector-main-menu>img {
     height: 20px;
 }
 
-.vector-main-menu {
-    padding: 20px;
-}
-
 .logo-text>a>img {
     height: 50px;
 }
 
+.wikipedia-text-svg {
+    padding: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 4em;
+    height: 2em;
+    width: 30em;
+    border: 1px solid #b9bec4;
+    
+}
+
+.search-icon {
+    width: 20px;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.search-bar {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.search-bar:focus {
+    outline: none; /* Remove selection when focused */
+}
+
+.search-button {
+    margin-left: 230px;
+    height: 2.5em;
+    width: 5em;
+    border: 1px solid #b9bec4;
+
+}
 
 
+.authorization-nav {
+    
+}
+
+
+.authorization-nav>ul>li>a {
+    display: block;
+    padding: 10px;
+}
+
+.authorization-nav>ul {
+    display: flex;
+    list-style: none;
+}
