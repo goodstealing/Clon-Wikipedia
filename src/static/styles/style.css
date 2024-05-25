@@ -92,6 +92,7 @@ li {
     display: flex;
     align-items: center;
     /* background-color: blueviolet; */
+    
 }
 
 .vector-main-menu {
@@ -111,14 +112,20 @@ li {
     padding: 10px;
 }
 
-.search {
+.search-box {
     display: flex;
     align-items: center;
     margin-left: 4em;
-    height: 2em;
-    width: 30em;
-    border: 1px solid #b9bec4;
+    /* border: solid red 1px; */
     
+}
+
+.tmp {
+    border: 1px solid #b9bec4;
+    display: flex;
+    align-items: center;
+    width: 400px;
+
 }
 
 .search-icon {
@@ -131,6 +138,8 @@ li {
     margin: 0px;
     padding: 0px;
     border: none;
+    height: 35px;
+    width: 400px;
 }
 
 .search-bar:focus {
@@ -138,25 +147,24 @@ li {
 }
 
 .search-button {
-    margin-left: 230px;
-    height: 2.5em;
-    width: 5em;
+    display: block;
+    height: 37px;
     border: 1px solid #b9bec4;
-
 }
 
-
-.authorization-nav {
+.user-links-main {
+    display: flex;
     
 }
 
-
 .authorization-nav>ul>li>a {
     display: block;
-    padding: 10px;
+    padding: 5px;
 }
 
 .authorization-nav>ul {
     display: flex;
     list-style: none;
+    align-items: center;
 }
+
