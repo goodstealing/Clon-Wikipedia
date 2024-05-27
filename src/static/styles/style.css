@@ -154,6 +154,7 @@ li {
 
 .user-links-main {
     display: flex;
+    margin-left: 20em;
     
 }
 
@@ -168,3 +169,8 @@ li {
     align-items: center;
 }
 
+.dropdown-checkbox {
+    display: inline-flex;
+    height: 20px;
+    margin-left: 1em;
+}
