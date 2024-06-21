@@ -1,7 +1,19 @@
+/* Zero margin */
 p {
     margin: 0;
 }
 
+body {
+    margin: 0px;
+}
+
+ul {
+    margin: 0;
+    padding: 0px;
+}
+
+
+/* Link Formatting */
 .link {
     color: #1100ff;
     text-decoration: none !important;
@@ -12,78 +24,23 @@ p {
     text-decoration: underline !important;
 }
 
-ul {
-    margin: 0;
-    padding: 0px;
+
+/* Wrapper */
+.side-nav-bar {
+    width: 15%;
+    border: solid blue 3px; 
 }
 
-/* Content */
-.inbox-biota {
-    display: inline-block;
-    float: right;
-    border: solid gray 1px;
-    padding: 7px;
-    margin-left: 10px;
-}
-
-.inbox-biota>span {
-    text-align: left;
-}
-
-
-.alloted-block {
-    background-color: rgb(180,250,180)
-}
-
-li {
-    padding: 2px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.hatnote>p {
-    padding-left: 1.6em;
-    margin-bottom: 0.5em;
-}
-
-.main-wrapper {
-    margin: 7em 10em 15em 15em;
-}
-
-/* Title */
-
-.nav-bar {
+.wrapper {
     display: flex;
-    justify-content: space-between; 
-    background-color: aquamarine;
-
-
+    justify-content: center;
 }
 
 
-.nav-bar>nav>ul {
-    display: flex;
-}
-
-.nav-bar>nav>ul>li {
-    /* margin-right: 40px;
-    margin-left: 40px; */
-    list-style: none;
-
-}
-
-.nav-bar>nav>ul>li>a {
-    display: block;
-    padding: 10px;
-}
-
-/* Styles applied to the 900px window and bottom */
-@media (max-width: 900px) {
-    .nav-bar {
-        flex-direction: column;
-    }
+/* All Content */
+.content {
+    width: 85%;
+    border: solid pink 3px;
 }
 
 
@@ -91,8 +48,6 @@ li {
 .header {
     display: flex;
     align-items: center;
-    /* background-color: blueviolet; */
-    
 }
 
 .vector-main-menu {
@@ -116,16 +71,13 @@ li {
     display: flex;
     align-items: center;
     margin-left: 4em;
-    /* border: solid red 1px; */
-    
 }
 
-.tmp {
+.container-search {
     border: 1px solid #b9bec4;
     display: flex;
     align-items: center;
     width: 400px;
-
 }
 
 .search-icon {
@@ -174,3 +126,66 @@ li {
     height: 20px;
     margin-left: 1em;
 }
+
+
+/* Upper nav Bar */
+.upper-nav-bar {
+    display: flex;
+    justify-content: space-between; 
+    background-color: aquamarine;
+}
+
+
+.upper-nav-bar>nav>ul {
+    display: flex;
+}
+
+.upper-nav-bar>nav>ul>li {
+    list-style: none;
+}
+
+.upper-nav-bar>nav>ul>li>a {
+    display: block;
+    padding: 10px;
+}
+
+/* Styles applied to the 900px window and bottom */
+@media (max-width: 900px) {
+    .upper-nav-bar {
+        flex-direction: column;
+    }
+}
+
+
+/* Base information on the site main-content */
+.main-content-wrapper {
+    margin: 7em 10em 15em 15em;
+}
+
+.container-inbox-biota {
+    display: inline-block;
+    float: right;
+    border: solid gray 1px;
+    padding: 7px;
+    margin-left: 10px;
+}
+
+.container-inbox-biota>span {
+    text-align: left;
+}
+
+
+.hatnote>p {
+    padding-left: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+.alloted-block {
+    background-color: rgb(180,250,180)
+}
+
+.container-inbox-biota>ul>li> {
+    padding: 2px;
+}
+
+
